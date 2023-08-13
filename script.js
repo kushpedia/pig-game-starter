@@ -88,6 +88,7 @@ btnHold.addEventListener('click', function(){
     }
     else{
 // switch players
+
     switchPlayer()
     }
     }
