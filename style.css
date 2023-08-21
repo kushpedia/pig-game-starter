@@ -16,7 +16,10 @@ body {
   font-weight: 400;
   height: 100vh;
   color: #333;
-  background-image: linear-gradient(to top left, #bf1010 0%, #2cbd0c 100%);
+  background-image:url("12317.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,7 +30,9 @@ main {
   position: relative;
   width: 100rem;
   height: 60rem;
-  background-color: rgba(255, 255, 255, 0.35);
+  /* background-image: url("12311.jpg"); */
+
+  background-color: rgb(255, 255, 255);
   backdrop-filter: blur(200px);
   filter: blur();
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
@@ -64,6 +69,10 @@ main {
 }
 
 .player--active {
+  /* background-image: url("12321.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; */
   background-color: rgba(77, 5, 222, 0.4);
 }
 .player--active .name {

@@ -71,6 +71,7 @@ else{
 
 btnHold.addEventListener('click', function(){
     if(playing){
+    diceEl.classList.add('hidden');
      // add the activeplayer point to the current player score
     score[activePlayer] += currentScore;
     document.getElementById(`score--${activePlayer}`).textContent = score[activePlayer];
